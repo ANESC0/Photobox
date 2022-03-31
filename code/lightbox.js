@@ -8,7 +8,7 @@ var commentaire;
 
 function load(node) {
     photoCourante = node;
-    var test = node.childNodes[1].getAttribute("data-uri")
+    var test = node.getAttribute("data-uri")
     return photoloader.loadRessource(test);
 }
 

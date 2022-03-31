@@ -33,7 +33,8 @@ function display_lightbox(data) {
         let commmentaires = "";
         for (let i=0;i<response.comments.length; i++){
             if (response.comments[i].content !=""){
-                commmentaires += `<p>Titre : ${response.comments[i].titre} | Pseudo : ${response.comments[i].pseudo} | ${response.comments[i].content}</p>`
+                
+                commmentaires += `<div class="comm">Pseudo : ${response.comments[i].pseudo} | <p>Titre : ${response.comments[i].titre} | ${response.comments[i].content}</p></div>`
             }
         }
             divPhoto.innerHTML = commmentaires;
