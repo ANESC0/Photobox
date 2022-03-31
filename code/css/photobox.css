@@ -137,17 +137,28 @@ button:hover {
 
 
 }
+.owner{
+  text-align: left;
+  font-size: medium;
+  color: aliceblue;
+  background-color: #e1a3ff;
+  width: 180px;
+  border: white 2px solid;
+}
 
 #lightbox_close {
   float: left;
   font-size: 50px;
-  padding-left: 30px;
+  margin-left: 30px;
+  width: 50px;
+  border: #bd0871 2px solid;
 }
 
 #lightbox_title {
   text-align: center;
   font-size: 40px;
   background-color: #e1a3ff;
+  height: auto;
 }
 
 #lightbox {
@@ -171,6 +182,7 @@ button:hover {
 
 #prev-img {
   margin-left : 150px;
+  transform: rotate(180deg);
 }
 
 #next-img {
@@ -178,6 +190,7 @@ button:hover {
 }
 
 #infos-photo {
+  display: block;
   text-align: center;
   margin-top : 20px;
   font-size: 20px;
